@@ -7,7 +7,7 @@ class QisthiPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Qisthi Page'),
+        title: const Text('Qisthi Home'),
       ),
     );
   }
