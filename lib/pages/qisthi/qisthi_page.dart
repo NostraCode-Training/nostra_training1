@@ -9,6 +9,59 @@ class QisthiPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Qisthi Home'),
       ),
+      body: Wrap(
+        alignment: WrapAlignment.center,
+        children: [
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+          Container(
+            margin: const EdgeInsets.all(5),
+            width: 100,
+            height: 100,
+            color: Colors.amber,
+          ),
+        ],
+      ),
     );
   }
 }
