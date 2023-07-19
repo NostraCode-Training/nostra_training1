@@ -9,59 +9,34 @@ class QisthiPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Qisthi Home'),
       ),
-      body: Wrap(
+      body: const Wrap(
         alignment: WrapAlignment.center,
         children: [
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
-          Container(
-            margin: const EdgeInsets.all(5),
-            width: 100,
-            height: 100,
-            color: Colors.amber,
-          ),
+          MyContainer(Colors.green),
+          MyContainer(Colors.greenAccent),
+          MyContainer(Colors.lightGreen),
+          Text('halo')
         ],
       ),
+    );
+  }
+}
+
+class MyContainer extends StatelessWidget {
+  final Color warna;
+
+  const MyContainer(
+    this.warna, {
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.all(5),
+      width: 100,
+      height: 100,
+      color: warna,
     );
   }
 }
