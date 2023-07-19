@@ -7,7 +7,7 @@ class FebriePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Febrie Page'),
+        title: const Text('U App'),
       ),
     );
   }
