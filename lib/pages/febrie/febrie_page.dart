@@ -8,6 +8,7 @@ class FebriePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('U App'),
+        backgroundColor: Colors.green,
       ),
     );
   }
