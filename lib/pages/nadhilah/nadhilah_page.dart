@@ -7,7 +7,7 @@ class NadhilahPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nadhilah Page'),
+        title: const Text('Nadhilah Hazrati Page'),
       ),
     );
   }
