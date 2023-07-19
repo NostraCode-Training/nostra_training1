@@ -7,7 +7,7 @@ class GiaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gia Page'),
+        title: const Text('Gia Dwi'),
       ),
     );
   }
